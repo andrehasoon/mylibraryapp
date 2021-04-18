@@ -1,4 +1,22 @@
-"scripts": {
+{
+  "name": "mylibraryapp",
+  "version": "1.0.0",
+  "description": "mylibrary",
+  "main": "app.js",
+  "scripts": {
     "start": "node app.js"
-    },
-    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrehasoon/mylibraryapp.git"
+  },
+  "author": "Andre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrehasoon/mylibraryapp/issues"
+  },
+  "homepage": "https://github.com/andrehasoon/mylibraryapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
